@@ -1,26 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>InovationLab Timetable</title>
-  </head>
-  <body>
-    <h2>InovationLab TimeTable</h2>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable</title>
+</head>
+<body>
+
+    <h1>Weekly Timetable</h1>
+
     <table border="1">
-      <tr>
-        <th>Day</th>
-        <th>Period1</th>
-        <th>Period2</th>
-      </tr>
-      <tr>
-        <td>Monday</td>
-        <td colspan="2">invo-lab</td>
-      </tr>
-      <tr>
-        <td>Tuesday</td>
-        <td colspan="2">invo-lab</td>
-      </tr>
+        <tr>
+            <th>Day</th>
+            <th>Period 1</th>
+            <th>Period 2</th>
+            <th>Period 3</th>
+            <th>Period 4</th>
+            <th>Period 5</th>
+            <th>Period 6</th>
+        </tr>
+        
+        <tr>
+            <td>Monday</td>
+            <td>Math</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>English</td>
+            <td>Geography</td>
+            <td>Physical Education</td>
+        </tr>
+        
+        <tr>
+            <td>Tuesday</td>
+            <td>English</td>
+            <td>Math</td>
+            <td>Art</td>
+            <td>Science</td>
+            <td>History</td>
+            <td>Computer Science</td>
+        </tr>
+        
+        <tr>
+            <td>Wednesday</td>
+            <td>Geography</td>
+            <td>Math</td>
+            <td>English</td>
+            <td>Biology</td>
+            <td>Physics</td>
+            <td>Physical Education</td>
+        </tr>
+        
+        <tr>
+            <td>Thursday</td>
+            <td>History</td>
+            <td>Computer Science</td>
+            <td>Math</td>
+            <td>Geography</td>
+            <td>Art</td>
+            <td>English</td>
+        </tr>
+        
+        <tr>
+            <td>Friday</td>
+            <td>Physical Education</td>
+            <td>History</td>
+            <td>Math</td>
+            <td>Biology</td>
+            <td>Science</td>
+            <td>Music</td>
+        </tr>
+        
+        <tr>
+            <td>Saturday</td>
+            <td>Art</td>
+            <td>Physical Education</td>
+            <td>English</td>
+            <td>Math</td>
+            
+            <td>History</td>
+            <td>Geography</td>
+        </tr>
     </table>
-  </body>
+
+</body>
 </html>
