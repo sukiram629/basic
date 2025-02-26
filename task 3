@@ -2,17 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
 <body>
+
   <details>
-    <summary>Html</summary>
+    <summary>HTML</summary>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, quisquam sint ad possimus doloremque veritatis harum quaerat. Iusto, doloribus corporis repellendus vitae molestiae ducimus tenetur quis quae. Alias, ipsa beatae.</p>
-  </details> 
-<details>
-  <audio src="C:\Users\casstudent.KGISLEDU\Downloads\file_example_MP3_1MG.mp3"></audio>
-</details>
+  </details>
+
+ 
+  <details>
+    <summary>Audio Example</summary>
+    
+    <audio controls>
+      <source src="sample-9s.mp3" type="audio/mpeg">
+      
+    </audio>
+  </details>
 
 </body>
 </html>
