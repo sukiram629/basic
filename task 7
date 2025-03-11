@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hello! My name is sukiram. I am a frontend devoloper i am work in infosys.</p>
+        <p>Feel free to explore my work below.</p>
+    </section>
+
+    <section id="projects">
+        <h1>My Projects</h1>
+        <article>
+            <h2>Project 1</h2>
+            <p>create a basic website.the website consist of cybersecurity awareness </p>
+        </article>
+        <article>
+            <h2>Project 2</h2>
+            <p>on the process i will update the project soon </p>
+        </article>
+    </section>
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <p>You can reach me via email: <a href="mailto:24bct150@gmail.com">24bct150@gmail.com</a></p>
+        <p>Or find me on LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">sukiram @1223</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 sukiram . All rights reserved.</p>
+    </footer>
+</body>
+</html>
