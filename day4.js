@@ -27,7 +27,7 @@ console.log(details.subject["java"]);
 //console.log(details.avg());
 console.log(details.parseInt.()));*/
 /*const person={
-    name:"steffy",
+    name:"sukiram",
     age:"18",
     city:"Coimbatore"
 };
@@ -35,6 +35,6 @@ const{name,age,city}=person;
 console.log(name);
 console.log(age);
 console.log(city);*/
-const details=["steffy",18,"bsc.ct"];
+const details=["sukiram",18,"bsc.ct"];
 const[name,age,department]=details;
 console.log(name+" "+age+" "+department);
