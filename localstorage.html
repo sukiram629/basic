@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//local storage->stores data permenently
+//(untill cleared by user or code )
+
+localStorage.setItem("username","javascript");
+localStorage.getItem("username");
+localStorage.removeItem("username");
+localStorage.clear()
+//storing array value in ls:
+//local storage only stores strings,not arrays.
+//We Need to Convert arrays into a string(using JSON.stringify)
+var arr=["python","javascript","java","reactjs","c++"]
+localStorage.setItem("details",JSON.stringify(arr))
+let stredarr=JSON.parse(localStorage.getItem("details"))
+console.log(stredarr);
+localStorage.clear();
+
+
+
+    </script>
+</body>
+</html>
